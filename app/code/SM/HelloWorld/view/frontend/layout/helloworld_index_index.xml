@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="SM_HelloWorld::css/helloworld.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="SM\HelloWorld\Block\HelloWorld" name="HelloWorld Block" template="SM_HelloWorld::helloworld.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
